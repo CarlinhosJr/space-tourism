@@ -17,6 +17,12 @@ module.exports = {
         'destination-desktop': "url('./src/assets/destination/bg-destination-desktop.jpg')",
         'destination-tablet': "url('./src/assets/destination/bg-destination-tablet.jpg')",
         'destination-mobile': "url('./src/assets/destination/bg-destination-mobile.jpg')",
+        'crew-desktop': "url('./src/assets/crew/bg-crew-desktop.jpg')",
+        'crew-tablet': "url('./src/assets/crew/bg-crew-tablet.jpg')",
+        'crew-mobile': "url('./src/assets/crew/bg-crew-mobile.jpg')",
+        'tech-desktop': "url('./src/assets/technology/bg-tech-desktop.jpg')",
+        'tech-tablet': "url('./src/assets/technology/bg-tech-tablet.jpg')",
+        'tech-mobile': "url('./src/assets/technology/bg-tech-mobile.jpg')",
       },
 
       backgroundColor:{

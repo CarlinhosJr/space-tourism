@@ -1,9 +1,9 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from "../../assets/shared/logo.svg"
-import ImgOpen from "../../assets/shared/icon-open.svg"
-import ImgClose from "../../assets/shared/icon-close.svg"
+import Logo from "../assets/shared/logo.svg"
+import ImgOpen from "../assets/shared/icon-open.svg"
+import ImgClose from "../assets/shared/icon-close.svg"
 
 const Header = () =>{
     const [open, setOpen] = useState(false)

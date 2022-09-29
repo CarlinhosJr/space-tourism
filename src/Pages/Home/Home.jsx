@@ -1,15 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../components/Routes/Header';
+import Header from '../../components/Header';
 
 
 
 const Home = () =>{
   return (
     <div className="lg:bg-home-desktop md:bg-home-tablet bg-home-mobile min-h-screen bg-cover bg-no-repeat">
-        <div>
-          <Header/>
-        </div>
+        <Header/>
         <div className="lg:flex lg:justify-around lg:items-center lg:mt-[251px] md:text-center text-center md:mt-[106px] mt-40 ">
           <div className="flex flex-col">
             <p className="lg:text-[28px] md:text-xl text-base text-[#D0D6F9]">SO, YOU WANT TO TRAVEL TO</p>

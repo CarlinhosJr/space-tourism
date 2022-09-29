@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Header from '../../components/Routes/Header';
+import Header from '../../components/Header';
 import ImgMoon from '../../assets/destination/image-moon.png'
 
 const Destination = () =>{

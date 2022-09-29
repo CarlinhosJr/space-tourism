@@ -1,26 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../../components/Header';
 
 const Technology = () =>{
   return (
-    <div> 
-      <h1>Página Inicial</h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">00 home</Link>
-          </li>
-          <li>
-            <Link to="/destination">01 destination</Link>
-          </li>
-          <li>
-            <Link to="/crew">03 crew</Link>
-          </li>
-          <li>
-            <Link to="/technology">04 technology</Link>
-          </li>
-        </ul>
-      </nav>
+    <div className="lg:bg-tech-desktop md:bg-tech-tablet bg-tech-mobile min-h-screen bg-cover bg-no-repeat"> 
+      <Header/>
     </div>
   );
 }
