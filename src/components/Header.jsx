@@ -9,10 +9,10 @@ const Header = () =>{
     const [open, setOpen] = useState(false)
 
   return (
-    <header>
+    <header className="">
         <div className="lg:flex lg:justify-around lg:items-center md:flex md:justify-between md:items-center">
             <div className="md:mt-10 md:ml-10 ml-10 mt-8 inline-block">
-                <img src={Logo} alt="" className=""/>
+                <Link to="/"><img src={Logo} alt="" className=""/></Link> 
             </div>
             <div 
                 onClick={()=>setOpen(!open)} 
@@ -25,10 +25,10 @@ const Header = () =>{
                         <Link to="/"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">00</span> HOME</Link>
                     </li>
                     <li className="md:mb-0 mb-8 text-xl">
-                        <Link to="/destination"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">01</span> DESTINATION</Link>
+                        <Link to="/destination/moon"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">01</span> DESTINATION</Link>
                     </li>
                     <li className="md:mb-0 mb-8 text-xl">
-                        <Link to="/crew"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">02</span> CREW</Link>
+                        <Link to="/crew/douglas"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">02</span> CREW</Link>
                     </li>
                     <li className="md:mb-0 mb-8 text-xl">
                         <Link to="/technology"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">03</span> TECHNOLOGY</Link>

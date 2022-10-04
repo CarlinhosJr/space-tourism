@@ -16,7 +16,7 @@ module.exports = {
         'home-mobile': "url('./src/assets/home/bg-home-mobile.jpg')",
         'destination-desktop': "url('./src/assets/destination/bg-destination-desktop.jpg')",
         'destination-tablet': "url('./src/assets/destination/bg-destination-tablet.jpg')",
-        'destination-mobile': "url('./src/assets/destination/bg-destination-mobile.jpg')",
+        'destination-mobile': "url('./src/assets/destination/bg-destination-tablet.jpg')",
         'crew-desktop': "url('./src/assets/crew/bg-crew-desktop.jpg')",
         'crew-tablet': "url('./src/assets/crew/bg-crew-tablet.jpg')",
         'crew-mobile': "url('./src/assets/crew/bg-crew-mobile.jpg')",
