@@ -1,7 +1,8 @@
 import ImgVictor from '../../assets/crew/img-victor.png'
 
 const VitorGlover = () =>{
-    <div className="flex justify-around">
+    return (
+        <div className="flex justify-around">
         <div className="mt-28">
             <p className="lg:ml-0 lg:tracking-[4px] lg:text-[28px] md:ml-10 md:text-xl md:text-start md:tracking-[3px] text-center tracking-[2.7px] text-white"><span className="text-gray-500 font-bold mr-7">02</span>MEET YOUR CREW</p>
             <div className="mt-[154px]">
@@ -20,6 +21,7 @@ const VitorGlover = () =>{
             <img src={ImgVictor} alt="" />
         </div>
     </div>
+    )
 }
 
 export default VitorGlover

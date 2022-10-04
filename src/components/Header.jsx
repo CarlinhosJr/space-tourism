@@ -28,7 +28,7 @@ const Header = () =>{
                         <Link to="/destination/moon"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">01</span> DESTINATION</Link>
                     </li>
                     <li className="md:mb-0 mb-8 text-xl">
-                        <Link to="/crew/douglas"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">02</span> CREW</Link>
+                        <Link to="/crew/douglasHurley"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">02</span> CREW</Link>
                     </li>
                     <li className="md:mb-0 mb-8 text-xl">
                         <Link to="/technology"><span className="md:invisible lg:visible lg:mr-0 mr-2 font-bold">03</span> TECHNOLOGY</Link>

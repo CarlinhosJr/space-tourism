@@ -1,4 +1,4 @@
-import Header from "../../../components/Header"
+import CountUp from "react-countup"
 import NavDestination from "../../../components/NavDestination"
 import ImgEuropa from "../../../assets/destination/image-europa.png"
 
@@ -27,11 +27,26 @@ const Europa = () => {
                     <div className="md:flex md:flex-row md:gap-20 flex flex-col items-center mt-7">
                         <div>
                             <p className="text-[#D0D6F9] lg:text-start text-center tracking-[2.36px]">AVG. DISTANCE</p>
-                            <p className="text-white font-belf md:mt-0 mt-3 text-[28px]">628 MIL. KM</p>
+                            
+                             <p className="text-white font-belf md:mt-0 mt-3 text-[28px]">
+                                <CountUp 
+                                    end={628} 
+                                    duration={1} 
+                                    suffix=" MIL. KM" 
+                                />
+                            </p> 
+
                         </div>
                         <div className="md:mt-0 mt-8">
                             <p className="text-[#D0D6F9] tracking-[2.36px]">Est. travel time</p>
-                            <p className="text-white font-belf md:mt-0 mt-3 text-[28px] lg:text-start text-center">3 years</p>
+                            
+                            <p className="text-white font-belf md:mt-0 mt-3 text-[28px] lg:text-start text-center">
+                                <CountUp 
+                                    end={3} 
+                                    duration={1} 
+                                    suffix=" YEARS" 
+                                />
+                            </p>
                         </div>
                     </div>
                 </div>

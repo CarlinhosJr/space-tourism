@@ -5,7 +5,9 @@ const NavCrew = () =>{
         <nav>
             <ul className="flex gap-6 mt-24">
                 <li className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full">
-                    <Link to="/crew/douglas"></Link>
+                    <Link to="/crew/douglasHurley">
+                        <button></button>
+                    </Link>
                 </li>
                 <li className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full">
                     <Link to="/crew/markShuttleworth"></Link>

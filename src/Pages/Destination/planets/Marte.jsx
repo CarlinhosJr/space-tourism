@@ -1,4 +1,4 @@
-import Header from "../../../components/Header"
+import CountUp from "react-countup"
 import NavDestination from "../../../components/NavDestination"
 import ImgMars from "../../../assets/destination/image-mars.png"
 
@@ -26,11 +26,25 @@ const Mars = () => {
                     <div className="md:flex md:flex-row md:gap-20 flex flex-col items-center mt-7">
                         <div>
                             <p className="text-[#D0D6F9] lg:text-start text-center tracking-[2.36px]">AVG. DISTANCE</p>
-                            <p className="text-white font-belf md:mt-0 mt-3 text-[28px]">225 MIL. KM</p>
+                            
+                             <p className="text-white font-belf md:mt-0 mt-3 text-[28px]">
+                                <CountUp 
+                                    end={225} 
+                                    duration={1} 
+                                    suffix=" MIL. KM" 
+                                />
+                            </p> 
                         </div>
                         <div className="md:mt-0 mt-8">
-                            <p className="text-[#D0D6F9] tracking-[2.36px]">EST. TRAVEL TIME</p>
-                            <p className="text-white font-belf md:mt-0 mt-3 text-[28px] lg:text-start text-center">9 MONTHS</p>
+                            <p className="text-[#D0D6F9] tracking-[2.36px] lg:text-start text-center">EST. TRAVEL TIME</p>
+                            
+                            <p className="text-white font-belf md:mt-0 mt-3 text-[28px]">
+                                <CountUp 
+                                    end={9} 
+                                    duration={1} 
+                                    suffix=" MONTHS" 
+                                />
+                            </p> 
                         </div>
                     </div>
                 </div>

@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './main.css'
 import Home from "./Pages/home/Home"
 import Destination from "./pages/destination/Destination"
-import Mars from "./pages/destination/planets/Mars"
-import Europa from "./pages/destination/planets/Europa"
-import Titan from "./pages/destination/planets/Titan"
-import Moon from './pages/destination/planets/Moon'
+import Mars from "./Pages/destination/planets/Marte"
+import Europa from "./Pages/destination/planets/Europe"
+import Titan from "./Pages/destination/planets/Ttan"
+import Moon from './Pages/destination/planets/Lua'
 import Crew from "./pages/crew/Crew"
 import DouglasHurley from "./pages/crew/DouglasHurley"
 import MarkShuttleworth from "./pages/crew/MarkShuttleworth"
@@ -30,7 +30,7 @@ function App() {
             </Route>
 
             <Route path="crew" element={<Crew/>}>
-              <Route path="douglas" element={<DouglasHurley/>}/>
+              <Route path="douglasHurley" element={<DouglasHurley/>}/>
               <Route path="markShuttleworth" element={<MarkShuttleworth/>}/>
               <Route path="vitorGlover" element={<VitorGlover/>}/>
               <Route path="anoushehAnsari" element={<AnoushehAnsari/>}/>
