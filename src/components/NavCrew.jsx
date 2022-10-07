@@ -2,21 +2,27 @@ import { Link } from "react-router-dom"
 
 const NavCrew = () =>{
     return(
-        <nav>
-            <ul className="flex gap-6 mt-24">
-                <li className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full">
+        <nav className="md:flex justify-center">
+            <ul className="flex  gap-6">
+                <li>
                     <Link to="/crew/douglasHurley">
-                        <button></button>
+                        <button className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full"></button>
                     </Link>
                 </li>
-                <li className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full">
-                    <Link to="/crew/markShuttleworth"></Link>
+                <li>
+                    <Link to="/crew/markShuttleworth">
+                        <button className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full"></button>
+                    </Link>
                 </li>
-                <li className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full">
-                    <Link to="/crew/vitorGlover"></Link>
+                <li>
+                    <Link to="/crew/vitorGlover">
+                        <button className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full"></button>
+                    </Link>
                 </li>
-                <li className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full">
-                    <Link to="/crew/anoushehAnsari"></Link>
+                <li>
+                    <Link to="/crew/anoushehAnsari">
+                        <button className="w-[15px] h-[15px] bg-white bg-opacity-[0.17] rounded-full"></button>
+                    </Link>
                 </li>
             </ul>
         </nav>
