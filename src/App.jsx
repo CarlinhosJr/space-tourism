@@ -3,25 +3,25 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './main.css'
 
-import Home from './pages/home/Home.jsx'
+import Home from './pages/home/Home'
 
-import Destination from './pages/destination/Destination.jsx'
-import Mars from './pages/destination/planets/Marte.jsx'
-import Europa from './pages/destination/planets/Europe.jsx'
-import Titan from './pages/destination/planets/Ttan.jsx'
-import Moon from './pages/destination/planets/Moon.jsx'
+import Destination from './pages/destination/Destination'
+import Mars from './pages/destination/Marte'
+import Europa from './pages/destination/Europe'
+import Titan from './pages/destination/Ttan'
+import Moon from './pages/destination/Moon'
 
-import Crew from './pages/crew/Crew.jsx'
-import DouglasHurley from './pages/crew/Douglas.jsx'
-import MarkShuttleworth from './pages/crew/MarkShuttleworth.jsx'
-import VitorGlover from './pages/crew/Victor.jsx'
-import AnoushehAnsari from './pages/crew/AnoushehAnsari.jsx'
+import Crew from './pages/crew/Crew'
+import DouglasHurley from './pages/crew/Douglas'
+import MarkShuttleworth from './pages/crew/MarkShuttleworth'
+import VitorGlover from './pages/crew/Victor'
+import AnoushehAnsari from './pages/crew/AnoushehAnsari'
 
-import Technology from './pages/technology/Tecnologia.jsx'
-import LaunchVehicle from './pages/technology/LaunchVehicle.jsx'
-import SpaceCapsule from './pages/technology/SpaceCapsule.jsx'
-import Spaceport from './pages/technology/Spaceport.jsx'
-import Header from './components/Header.jsx'
+import Technology from './pages/technology/Tecnologia'
+import LaunchVehicle from './pages/technology/LaunchVehicle'
+import SpaceCapsule from './pages/technology/SpaceCapsule'
+import Spaceport from './pages/technology/Spaceport'
+import Header from './components/Header'
 
 
 function App() {
