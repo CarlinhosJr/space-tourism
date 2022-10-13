@@ -3,7 +3,7 @@ import './main.css'
 
 import Home from './Pages/home/Inicio'
 
-import Destination from "./Pages/destination/Destino"
+import Destination from "./Pages/destination/Destination"
 import Mars from "./Pages/destination/planets/Marte"
 import Europa from "./Pages/destination/planets/Europe"
 import Titan from "./Pages/destination/planets/Ttan"
