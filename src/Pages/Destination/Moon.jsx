@@ -1,7 +1,7 @@
 
 import CountUp from "react-countup"
-import NavDestination from "../../../components/NavDestination"
-import ImgMoon from "../../../assets/destination/image-moon.png"
+import NavDestination from "../../components/NavDestination"
+import ImgMoon from "../../assets/destination/image-moon.png"
 
 
 const Moon = () => {

@@ -1,6 +1,6 @@
 import CountUp from "react-countup"
 import NavDestination from "../../components/NavDestination"
-import ImgEuropa from "../../../assets/destination/image-europa.png"
+import ImgEuropa from "../../assets/destination/image-europa.png"
 
 
 const Europa = () => {

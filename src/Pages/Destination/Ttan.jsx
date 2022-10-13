@@ -1,6 +1,6 @@
 import CountUp from "react-countup"
-import NavDestination from "../../../components/NavDestination"
-import ImgTitan from "../../../assets/destination/image-titan.png"
+import NavDestination from "../../components/NavDestination"
+import ImgTitan from "../../assets/destination/image-titan.png"
 
 
 const Titan = () => {

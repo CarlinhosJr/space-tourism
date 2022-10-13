@@ -1,6 +1,6 @@
 import CountUp from "react-countup"
-import NavDestination from "../../../components/NavDestination"
-import ImgMars from "../../../assets/destination/image-mars.png"
+import NavDestination from "../../components/NavDestination"
+import ImgMars from "../../assets/destination/image-mars.png"
 
 
 const Mars = () => {
