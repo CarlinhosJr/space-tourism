@@ -1,7 +1,9 @@
+import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './main.css'
 
-import Home from './pages/home/Inicio'
+import Home from './pages/home/Home'
 
 import Destination from './pages/destination/Destination'
 import Mars from './pages/destination/planets/Marte'
