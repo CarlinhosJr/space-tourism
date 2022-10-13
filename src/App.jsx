@@ -3,7 +3,7 @@ import './main.css'
 
 import Home from './Pages/home/Inicio'
 
-import Destination from "./Pages/destination/Destination"
+import Destination from "./Pages/destination/Destino"
 import Mars from "./Pages/destination/planets/Marte"
 import Europa from "./Pages/destination/planets/Europe"
 import Titan from "./Pages/destination/planets/Ttan"
@@ -15,7 +15,7 @@ import MarkShuttleworth from "./Pages/crew/MarkShuttleworth"
 import VitorGlover from "./Pages/crew/Victor"
 import AnoushehAnsari from "./Pages/crew/AnoushehAnsari"
 
-import Technology from "./pages/technology/Technology"
+import Technology from "./Pages/technology/Tecnologia"
 import LaunchVehicle from './Pages/technology/LaunchVehicle'
 import SpaceCapsule from './Pages/technology/SpaceCapsule'
 import Spaceport from './Pages/technology/Spaceport'
