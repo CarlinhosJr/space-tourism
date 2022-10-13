@@ -28,13 +28,13 @@ const DouglasHurley = () => {
                     </p>
                 </div>
 
-                <div className="lg:mt-[120px] md:mt-10 md:flex md:justify-center lg:flex lg:justify-start hidden">
+                <div className=" lg:mt-[120px] md:mt-10 md:flex md:justify-center lg:flex lg:justify-start hidden">
                     <NavCrew/>
                 </div>
                 
             </div>
-            <div className=" right-0 lg:mt-[200px] md:mt-12 md:flex md:justify-center bottom-0 hidden">
-                <img src={ImgDouglas} alt="" className="lg:w-[525px] md:w-[400px] border-b-2  border-[#383B4B] " />
+            <div className="relative bottom-0 lg:mt-[200px] md:mt-12 md:flex md:justify-center hidden">
+                <img src={ImgDouglas} alt="" className="lg:w-[525px] md:w-[400px]  " />
                 {/* <div className="border-b border-[#383B4B] w-[700px]"></div> */}
             </div>
         </div>
