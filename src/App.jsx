@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './main.css'
-import Home from "./Pages/home/Home"
+
+import Home from './Pages/home/Home'
 
 import Destination from "./Pages/destination/Destination"
 import Mars from "./Pages/destination/planets/Marte"
